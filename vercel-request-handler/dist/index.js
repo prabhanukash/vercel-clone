@@ -15,8 +15,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const aws_sdk_1 = require("aws-sdk");
 const s3 = new aws_sdk_1.S3({
-    accessKeyId: "AKIAZI2LFPL7IDRWRORS",
-    secretAccessKey: "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",
+    accessKeyId: "",
+    secretAccessKey: "",
 });
 const app = (0, express_1.default)();
 app.get("/*", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
